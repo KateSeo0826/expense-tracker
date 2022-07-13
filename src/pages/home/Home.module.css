@@ -1,0 +1,82 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 960px;
+  margin: 60px auto;
+}
+
+.content {
+  margin: 0;
+  padding-right: 30px;
+}
+.sidebar {
+  padding-left: 30px;
+}
+.sidebar form {
+  padding: 20px;
+  background: #A2B59F;
+  border-radius: 10px;
+}
+.sidebar input, .sidebar select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  color: #555;
+  font-size: 1em;
+}
+.sidebar label {
+  margin: 0 auto 20px;
+  display: block;
+  color: #fff;
+}
+.sidebar button {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 6px 12px;
+  background-color: transparent;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-top: 16px;
+}
+.sidebar h3 {
+  color: #EEB8B8;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.sidebar aside {
+  margin-top: 40px;
+  color: #555;
+}
+.sidebar aside li {
+  margin: 10px;
+}
+.transactions button {
+  position: absolute;
+  top: 0;
+  right:0;
+  background: #ddd;
+  color: #777;
+  border: none;
+  padding: 12px 8px;
+  text-align: center;
+  line-height: 0;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+
+.select{
+  display: flex;
+  align-items: center;
+}
+
+.select span{
+  margin-left: 5px;
+}
